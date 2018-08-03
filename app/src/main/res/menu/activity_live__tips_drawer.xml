@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_intraday"
+            android:icon="@drawable/intraday"
+            android:title="Intraday" />
+        <item
+            android:id="@+id/nav_postional"
+            android:icon="@drawable/positional_calls"
+            android:title="Postional" />
+        <item
+            android:id="@+id/nav_nifty_calls"
+            android:icon="@drawable/nifty_calls"
+            android:title="Nifty Calls" />
+        <item
+            android:id="@+id/nav_short_term"
+            android:icon="@drawable/short_term"
+            android:title="Short Term" />
+        <item
+            android:id="@+id/nav_long_term"
+            android:icon="@drawable/long_term"
+            android:title="Long Term" />
+        <item
+            android:id="@+id/nav_pivot_levels"
+            android:icon="@drawable/pivot_table"
+            android:title="Pivot Levels" />
+        <item
+            android:id="@+id/nav_real_time_data"
+            android:icon="@drawable/real_time_data"
+            android:title="Real Time Data" />
+        <item
+            android:id="@+id/nav_commodity"
+            android:icon="@drawable/commodity"
+            android:title="Commodity" />
+        <item
+            android:id="@+id/nav_viewterminal"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="ViewTerminal" />
+        <item
+            android:id="@+id/nav_past_performance"
+            android:icon="@drawable/training_icon"
+            android:title="Past Performance" />
+    </group>
+
+</menu>

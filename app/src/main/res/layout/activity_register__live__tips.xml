@@ -1,0 +1,133 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.affwlcom.live_tips.Register_Live_Tips">
+
+
+        <TextView
+            android:id="@+id/txtvw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/livetips"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:textSize="30dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/txtvw"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/etName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Name"
+                    android:inputType="textPersonName"
+                    android:drawablePadding="5dp"
+
+                    android:drawableLeft="@drawable/ic_action_name"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/etEmailid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Email Id"
+                    android:drawablePadding="5dp"
+                    android:drawableLeft="@drawable/messages"
+                    android:inputType="textEmailAddress" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/etphone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    android:hint="Phone"
+                    android:drawableLeft="@drawable/phone"
+                    android:inputType="phone" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/etcpsswd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:drawablePadding="5dp"
+                    android:drawableLeft="@drawable/locked_padlock_outline"
+                    android:inputType="textPassword" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/edrpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Re-enter Password"
+                    android:drawablePadding="5dp"
+                    android:drawableLeft="@drawable/locked_padlock_outline"
+                    android:inputType="textPassword" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:id="@+id/svchkbox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Save Password" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/cfrmbtn"
+                android:layout_width="159dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="185dp"
+                android:layout_marginTop="12dp"
+                android:background="@android:color/holo_green_dark"
+                android:text="Confirm"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/cnclbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="-48dp"
+                android:textSize="20dp"
+                android:background="@android:color/holo_red_dark"
+                android:text="Cancel" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
